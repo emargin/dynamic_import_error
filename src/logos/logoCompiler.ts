@@ -16,5 +16,5 @@ const getAppLogos = async (): Promise<any> => {
     return result
 }
 
-export const { CompanyLogo, SmallCompanyLogo, BigCompanyLogo, PoweredByLogo, PoweredBySmallLogo } =
+export const { SmallCompanyLogo} =
     await getAppLogos()
